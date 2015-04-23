@@ -88,7 +88,7 @@ create table tCliente
 	observacion text not null,
 )
 
-/* CREAR LLAVES FOR¡NEAS */
+/* CREAR LLAVES FOR√ÅNEAS */
 
 use TiendaDB
 alter table tProducto
@@ -118,10 +118,9 @@ references tCliente(idCliente)
 /* INSERTAR DATOS */
 
 use TiendaDB
-
+insert into tCategoria values('IMP', 'IMPRESORAS', '');
 -- tCategoria (idCategoria, nombre, observacion)
 
-insert into tCategoria values('IMP', 'IMPRESORAS', '');
 insert into tCategoria values('MON', 'MONITORES', '');
 insert into tCategoria values('LAP', 'LAPTOP', '');
 insert into tCategoria values('NOT', 'NOTEBOOK', '');
