@@ -37,7 +37,10 @@ from employee
 where job_lvl = 100
  
 /* Mostrar qué categoría tiene mayor cantidad de empleados */
- 
+-- primero utilizo job_lvl y hago una cuenta de las tuplas y le llamo como variable Cantidad
+-- el resultado de este query es una tabla, le llamo R con () as R
+-- luego a esta tabla le hago un max(R.Cantidad), from () as R
+-- se podría hacer el primer query, llamarle R, ie. () as R y luego hacer otro query que haga from R
 select max(R.Cantidad)
 from (
 	select job_lvl, count(*) as Cantidad
@@ -45,7 +48,3 @@ from (
 	group by (job_lvl)
 	-- aquí se cuenta cada grupo de job_lvl
 ) as R
--- primero utilizo job_lvl y hago una cuenta de las tuplas y le llamo como variable Cantidad
--- el resultado de este query es una tabla, le llamo R con () as R
--- luego a esta tabla le hago un max(R.Cantidad), from () as R
--- se podría hacer el primer query, llamarle R, ie. () as R y luego hacer otro query que haga from R
