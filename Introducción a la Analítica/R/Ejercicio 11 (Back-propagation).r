@@ -4,7 +4,7 @@ setwd("D:/RStudioWD")
 #instalar el paquete neuralnet
 install.packages("neuralnet")
 
-#ver si se instaló grid y MASS
+#cargar la biblioteca neuralnet
 library(neuralnet)
 
 #crear un vector XOR llamado to
