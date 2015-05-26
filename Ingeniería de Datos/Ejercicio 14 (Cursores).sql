@@ -7,16 +7,16 @@ DECLARE MI_CURSOR CURSOR SCROLL FOR
 -- Abrir cursor
 OPEN MI_CURSOR
 
--- Imrpimir el primer registro
+-- Imprimir el primer registro
 FETCH FIRST FROM MI_CURSOR
 
--- Imrpimir el tercer registro
+-- Imprimir el tercer registro
 FETCH ABSOLUTE 3 FROM MI_CURSOR
 
--- Imrpimir el último registro
+-- Imprimir el último registro
 FETCH LAST FROM MI_CURSOR
 
--- Imrpimir el siguiente registro
+-- Imprimir el siguiente registro
 FETCH NEXT FROM MI_CURSOR
 
 -- Cerrar cursor
