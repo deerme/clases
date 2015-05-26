@@ -100,3 +100,5 @@ mean(glm.pred==Direction)
 
 #sacamos todos los datos de antes del 2005
 train = (Year<2005)
+
+...
