@@ -59,7 +59,11 @@ install.packages("neuralnet")
 library(neuralnet)
 
 #creamos la red neuronal, usando todos las variables para predecir el Strength y los datos de entrenamiento
-neural.net <- neuralnet(Strength ~ Cement+Blast+FlyAsh+Water+Superplasticizer+CoarseAggregate+FineAggregate+Age, data = concrete_train)
+neural.net <- neuralnet(
+  Strength ~ Cement+Blast+FlyAsh+Water+Superplasticizer+CoarseAggregate+FineAggregate+Age, 
+  data = concrete_train, 
+  hidden = 5, 
+  threshold = 0.01)
 
 #ploteamos la red neuronal
 plot(neural.net)
@@ -70,7 +74,5 @@ prediction <- compute(neural.net, concrete_test[1:8])$net.result
 #imprimimos nuestros valores de predicción
 prediction
 
-#hallamos la correlación entre nuestros datos de testeo y la fuerza (Strength)
+#hallamos la correlación entre nuestra predicción y los datos reales
 cor(prediction, concrete_test$Strength)
-
-
