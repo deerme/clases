@@ -1,5 +1,7 @@
 ### CLASIFICADORES BAYESIANOS ###
 
+# https://raw.githubusercontent.com/brenden17/sklearnlab/master/spam/sms_spam.csv
+
 # 1 # Leer el CSV considerando a los valores como no categóricos
 sms_raw = read.csv("sms_spam.csv", stringsAsFactors = FALSE)
 
