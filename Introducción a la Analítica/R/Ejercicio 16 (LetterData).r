@@ -1,3 +1,5 @@
+# https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/letterdata.csv
+
 library(e1071)
 
 letras <- read.csv("letterdata.csv")
