@@ -25,3 +25,5 @@ Existen cinco grupos de procesos principales:
 5. Cierre (no solo terminar; es algo formal, como por ejemplo a través de un papel que dice que estás conforme)
 
 Dirigir un proyecto es **identificar requisitos** y enfrentar las necesidades, inquietudes y expectativas de **los interesados**.
+
+Los proyectos son **el medio para cumplir con el plan estratégico de una organización.** Todos los proyectos deben apuntar a la misión, visión y objetivos de la empresa.
