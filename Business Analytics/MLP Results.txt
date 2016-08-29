@@ -1,0 +1,349 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     Credito-learn-01
+Instances:    6231
+Attributes:   12
+              ESTC
+              NDEP
+              RENDA
+              TIPOR
+              VBEM
+              NPARC
+              VPARC
+              TEL
+              IDADE
+              RESMS
+              ENTRADA
+              CLASSE
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -6.311200985069455
+    Node 2    1.7051396716730394
+    Node 3    -5.241870821209676
+    Node 4    7.1564713517200556
+    Node 5    4.43391714368589
+    Node 6    -9.088390536636778
+    Node 7    -8.260431820562811
+    Node 8    8.160233313146053
+    Node 9    2.2100264195834334
+    Node 10    -4.878822781936808
+    Node 11    3.543738223388196
+    Node 12    -5.585658911432664
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    6.311201251309796
+    Node 2    -1.705139683478293
+    Node 3    5.241871055661919
+    Node 4    -7.156471665938718
+    Node 5    -4.433917372545572
+    Node 6    9.088390899192033
+    Node 7    8.260432197154406
+    Node 8    -8.160234098852502
+    Node 9    -2.210026453132195
+    Node 10    4.878823076952492
+    Node 11    -3.5437384582408193
+    Node 12    5.585659096465011
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -4.5299346278379335
+    Attrib ESTC=0    2.1889812881670725
+    Attrib ESTC=1    -1.1077624897706375
+    Attrib ESTC=2    5.650245513892243
+    Attrib ESTC=3    2.1923532627693754
+    Attrib NDEP=0    1.8347570740508363
+    Attrib NDEP=1    -3.2426633866377
+    Attrib NDEP=2    4.270465700822571
+    Attrib NDEP=3    7.718505184499997
+    Attrib NDEP=4    2.675866813462326
+    Attrib NDEP=5    4.629611091864034
+    Attrib NDEP=6    4.634193705752409
+    Attrib NDEP=7    4.551478292001121
+    Attrib RENDA    -9.062942230202559
+    Attrib TIPOR=1    8.570960310237885
+    Attrib VBEM    -8.20599986893528
+    Attrib NPARC    -29.658039087391238
+    Attrib VPARC    -10.091759128460158
+    Attrib TEL=1    9.559130550120885
+    Attrib IDADE    -2.4908456396053706
+    Attrib RESMS    -0.298446889498441
+    Attrib ENTRADA    -9.195310765779588
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -2.406182846801381
+    Attrib ESTC=0    4.311137499622936
+    Attrib ESTC=1    -0.8221244636784124
+    Attrib ESTC=2    2.1125366048360403
+    Attrib ESTC=3    -0.9279091043598451
+    Attrib NDEP=0    -1.2898694026198767
+    Attrib NDEP=1    -0.8469164160176117
+    Attrib NDEP=2    7.139322067813747
+    Attrib NDEP=3    -1.1219443170145535
+    Attrib NDEP=4    4.338014059941211
+    Attrib NDEP=5    1.9011022969933997
+    Attrib NDEP=6    2.3769584921105844
+    Attrib NDEP=7    1.8437283746021234
+    Attrib RENDA    9.52669821210413
+    Attrib TIPOR=1    1.0646870657987486
+    Attrib VBEM    -3.3321037070897357
+    Attrib NPARC    13.524636930971639
+    Attrib VPARC    -3.5705408347913115
+    Attrib TEL=1    -0.05572789990401559
+    Attrib IDADE    20.766026676736292
+    Attrib RESMS    -1.5682326663935726
+    Attrib ENTRADA    -5.209736526846126
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    1.741127123994846
+    Attrib ESTC=0    -3.472034911037749
+    Attrib ESTC=1    -1.8803319516931094
+    Attrib ESTC=2    0.08754669554133629
+    Attrib ESTC=3    1.759347430762477
+    Attrib NDEP=0    -4.350451866912646
+    Attrib NDEP=1    -0.3967723658006383
+    Attrib NDEP=2    2.032819207376603
+    Attrib NDEP=3    -0.3568725180766342
+    Attrib NDEP=4    -3.4368133786079986
+    Attrib NDEP=5    -1.439416040387322
+    Attrib NDEP=6    -1.5907224410951009
+    Attrib NDEP=7    -0.9496579014399608
+    Attrib RENDA    -4.929117156616222
+    Attrib TIPOR=1    -0.5566742810003945
+    Attrib VBEM    12.91061186909633
+    Attrib NPARC    -22.195356151133495
+    Attrib VPARC    2.927202419722923
+    Attrib TEL=1    5.376529276125493
+    Attrib IDADE    28.132281257191448
+    Attrib RESMS    -8.378436799845284
+    Attrib ENTRADA    3.408802327326982
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.18340485317421348
+    Attrib ESTC=0    -0.24492198886725264
+    Attrib ESTC=1    1.5467802252931522
+    Attrib ESTC=2    1.1087387716528936
+    Attrib ESTC=3    -2.7419461796173175
+    Attrib NDEP=0    2.3832335152229223
+    Attrib NDEP=1    0.6587271696357007
+    Attrib NDEP=2    -5.506483296213337
+    Attrib NDEP=3    1.6817741020968746
+    Attrib NDEP=4    0.18767455312141124
+    Attrib NDEP=5    -0.13754943634959402
+    Attrib NDEP=6    -0.1381377419421624
+    Attrib NDEP=7    -0.16909793592649489
+    Attrib RENDA    0.1594198404968714
+    Attrib TIPOR=1    14.286403690605885
+    Attrib VBEM    -1.7525755228035218
+    Attrib NPARC    -5.123521072918477
+    Attrib VPARC    -4.946577416927181
+    Attrib TEL=1    3.403758904389614
+    Attrib IDADE    20.40616543223687
+    Attrib RESMS    -9.813146085253234
+    Attrib ENTRADA    13.94598973036104
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    2.8720138409408813
+    Attrib ESTC=0    -2.0549705725512557
+    Attrib ESTC=1    -0.592531726922943
+    Attrib ESTC=2    -3.1625249925042866
+    Attrib ESTC=3    0.07189941377720574
+    Attrib NDEP=0    -0.14635795648751843
+    Attrib NDEP=1    -3.6480700949556324
+    Attrib NDEP=2    1.6697276942883321
+    Attrib NDEP=3    -3.6363858056345384
+    Attrib NDEP=4    -2.8126108871219007
+    Attrib NDEP=5    -2.829920002936035
+    Attrib NDEP=6    -2.8642753321472982
+    Attrib NDEP=7    -2.906140839961944
+    Attrib RENDA    1.5608224759712166
+    Attrib TIPOR=1    -28.15528480523202
+    Attrib VBEM    4.322890590802627
+    Attrib NPARC    0.41316056782813726
+    Attrib VPARC    1.7617577051142255
+    Attrib TEL=1    0.856169383698144
+    Attrib IDADE    -48.125737147979486
+    Attrib RESMS    28.396320142266212
+    Attrib ENTRADA    -1.8800263758935627
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.4320151919213922
+    Attrib ESTC=0    5.468249790067866
+    Attrib ESTC=1    -0.22954769491002136
+    Attrib ESTC=2    0.33690958982403013
+    Attrib ESTC=3    -4.687884732731287
+    Attrib NDEP=0    -0.39794115162451427
+    Attrib NDEP=1    -0.7562369855991482
+    Attrib NDEP=2    1.9469208231480293
+    Attrib NDEP=3    0.010811057625152533
+    Attrib NDEP=4    0.39196172218046216
+    Attrib NDEP=5    0.3998393100155873
+    Attrib NDEP=6    0.4042883646317211
+    Attrib NDEP=7    0.4253031131826391
+    Attrib RENDA    0.8803219555935101
+    Attrib TIPOR=1    -13.896781851868017
+    Attrib VBEM    -0.2002363919420854
+    Attrib NPARC    2.3299384223117046
+    Attrib VPARC    10.228815905131839
+    Attrib TEL=1    7.727437758668494
+    Attrib IDADE    -7.253555648545228
+    Attrib RESMS    18.29904825551602
+    Attrib ENTRADA    -10.238591664915665
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    0.8716921183646318
+    Attrib ESTC=0    -2.5479652713366883
+    Attrib ESTC=1    1.9149514339554476
+    Attrib ESTC=2    -0.8938899611167075
+    Attrib ESTC=3    -0.32572415854976244
+    Attrib NDEP=0    1.4898988428154147
+    Attrib NDEP=1    -1.3896166907541172
+    Attrib NDEP=2    -0.4178044271327484
+    Attrib NDEP=3    -1.4078836085841355
+    Attrib NDEP=4    -0.9381444324918963
+    Attrib NDEP=5    -0.9560571961868349
+    Attrib NDEP=6    -0.870158117945749
+    Attrib NDEP=7    -0.8710439216033694
+    Attrib RENDA    10.761177160361417
+    Attrib TIPOR=1    -2.6140181921661236
+    Attrib VBEM    1.2245286712829726
+    Attrib NPARC    16.79414316974952
+    Attrib VPARC    0.2352091862718798
+    Attrib TEL=1    -0.9072375127903995
+    Attrib IDADE    -0.4026526602641194
+    Attrib RESMS    7.127213621384158
+    Attrib ENTRADA    2.665258638793056
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -2.29671369816265
+    Attrib ESTC=0    0.14939237963840968
+    Attrib ESTC=1    2.6920023284581864
+    Attrib ESTC=2    3.731692452905441
+    Attrib ESTC=3    -2.025790160828137
+    Attrib NDEP=0    -1.4712355127313266
+    Attrib NDEP=1    -1.3558695620591292
+    Attrib NDEP=2    3.9004423097552734
+    Attrib NDEP=3    3.48253448230928
+    Attrib NDEP=4    2.2849902538807454
+    Attrib NDEP=5    2.325150165493401
+    Attrib NDEP=6    2.2896590015598948
+    Attrib NDEP=7    2.2772737654562576
+    Attrib RENDA    -1.894560820335501
+    Attrib TIPOR=1    21.779842810770884
+    Attrib VBEM    -9.934442973036637
+    Attrib NPARC    -0.2993508367002531
+    Attrib VPARC    3.830749441249362
+    Attrib TEL=1    4.048281837360741
+    Attrib IDADE    39.41706558129985
+    Attrib RESMS    -4.587830050813972
+    Attrib ENTRADA    -18.282657624678095
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.3457440594721257
+    Attrib ESTC=0    -5.591232618961257
+    Attrib ESTC=1    6.643164732160787
+    Attrib ESTC=2    0.1570496809712684
+    Attrib ESTC=3    -0.4395910487383268
+    Attrib NDEP=0    1.2538969439047123
+    Attrib NDEP=1    -0.7736069457482503
+    Attrib NDEP=2    0.2928829544213589
+    Attrib NDEP=3    -0.16524779396842595
+    Attrib NDEP=4    0.5993935027649647
+    Attrib NDEP=5    0.3771186781245276
+    Attrib NDEP=6    0.39760844800349276
+    Attrib NDEP=7    0.3362361135175566
+    Attrib RENDA    8.478375651381034
+    Attrib TIPOR=1    2.3522288845179324
+    Attrib VBEM    2.3622868634138223
+    Attrib NPARC    3.5644781670461594
+    Attrib VPARC    8.985810861445627
+    Attrib TEL=1    -3.063856977425385
+    Attrib IDADE    12.888841644543499
+    Attrib RESMS    -0.9770788075489502
+    Attrib ENTRADA    2.9605208949338757
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    0.8243194210856001
+    Attrib ESTC=0    1.961342774813147
+    Attrib ESTC=1    -7.666683043462057
+    Attrib ESTC=2    -0.2459957249368516
+    Attrib ESTC=3    4.512459969809867
+    Attrib NDEP=0    -4.699198999694006
+    Attrib NDEP=1    -2.488908083340998
+    Attrib NDEP=2    2.4931342838448662
+    Attrib NDEP=3    1.8615108445489825
+    Attrib NDEP=4    0.3431925346188678
+    Attrib NDEP=5    -0.7263594197472221
+    Attrib NDEP=6    -0.8317286714434032
+    Attrib NDEP=7    -0.7520517923236196
+    Attrib RENDA    0.5318360670946248
+    Attrib TIPOR=1    -3.3199092723668744
+    Attrib VBEM    -2.0057709957234358
+    Attrib NPARC    -10.461211451949533
+    Attrib VPARC    7.213527031525409
+    Attrib TEL=1    4.933110601586494
+    Attrib IDADE    -10.813847106144737
+    Attrib RESMS    5.8736627402371315
+    Attrib ENTRADA    -2.251050195992383
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -5.13310892682362
+    Attrib ESTC=0    2.4702347173696486
+    Attrib ESTC=1    2.1877222463529287
+    Attrib ESTC=2    4.208719072403008
+    Attrib ESTC=3    1.4418006656212365
+    Attrib NDEP=0    1.7968719671553763
+    Attrib NDEP=1    4.249107724893656
+    Attrib NDEP=2    3.2820712713051186
+    Attrib NDEP=3    9.334506647172459
+    Attrib NDEP=4    2.267192731201546
+    Attrib NDEP=5    2.0902688494227126
+    Attrib NDEP=6    5.132804118306895
+    Attrib NDEP=7    2.7227805450421143
+    Attrib RENDA    -9.3341242475921
+    Attrib TIPOR=1    -0.5181963216381548
+    Attrib VBEM    -4.6745384038722095
+    Attrib NPARC    18.191516713618487
+    Attrib VPARC    -5.365673766821437
+    Attrib TEL=1    -1.0601145712799052
+    Attrib IDADE    17.155898171922853
+    Attrib RESMS    -5.560537561076136
+    Attrib ENTRADA    0.5170479337929756
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Time taken to build model: 12.61 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        5694               91.3818 %
+Incorrectly Classified Instances       537                8.6182 %
+Kappa statistic                          0.8262
+Mean absolute error                      0.1144
+Root mean squared error                  0.2597
+Relative absolute error                 22.9475 %
+Root relative squared error             52.006  %
+Total Number of Instances             6231     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,970    0,148    0,879      0,970    0,922      0,831    0,953     0,938     0
+                 0,852    0,030    0,962      0,852    0,904      0,831    0,953     0,958     1
+Weighted Avg.    0,914    0,092    0,918      0,914    0,913      0,831    0,953     0,947     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 3174   99 |    a = 0
+  438 2520 |    b = 1
+

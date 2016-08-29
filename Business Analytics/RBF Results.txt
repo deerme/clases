@@ -1,0 +1,70 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.RBFClassifier -N 2 -R 0.01 -L 1.0E-6 -C 2 -P 1 -E 1 -S 1
+Relation:     Credito-learn-01
+Instances:    6231
+Attributes:   12
+              ESTC
+              NDEP
+              RENDA
+              TIPOR
+              VBEM
+              NPARC
+              VPARC
+              TEL
+              IDADE
+              RESMS
+              ENTRADA
+              CLASSE
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Output weights for different classes:
+-22.904112435080396	23.142198929641403	
+
+Unit center:
+0.42880109643708103	0.32676085732628757	0.05297978417282138	0.19145826273785238	0.7813569405754373	0.052353497195847816	0.1543020470634592	-0.024291508803069555	0.04185129159199654	-0.0012504011799119778	-0.003617094001845951	-7.047700426466527E-4	0.0881741173507475	-0.36780377066939224	0.12710992231945129	0.39081358318580167	0.18873177260966967	0.315826328408015	-0.20722668849850467	0.4726591615308268	0.008403719966768362	
+
+Unit scale:
+1.0522909377354233	
+
+Output weights for different classes:
+21.738947885020117	-21.952616881832977	
+
+Unit center:
+0.4897153694071085	0.2925959104574782	0.10443208449609323	0.1132566346368049	0.8822489534696235	-0.003052119022090152	0.011561312456314733	0.15318387880662288	-0.0641219893705573	0.004566312998799633	0.01319643023709681	0.0024172169345762517	-0.04199067839722082	0.4644008961681297	-0.1127694319170894	-0.3169939805121099	-0.009589631382234842	0.29230134408698577	1.5929282880969566	-0.38379514238502294	0.11200019872619486	
+
+Unit scale:
+1.2735057773378147	
+
+Bias weights for different classes:
+-0.8825297739626045	0.8907239697653275	
+
+Time taken to build model: 1.69 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        5623               90.2423 %
+Incorrectly Classified Instances       608                9.7577 %
+Kappa statistic                          0.8028
+Mean absolute error                      0.172 
+Root mean squared error                  0.2951
+Relative absolute error                 34.4872 %
+Root relative squared error             59.0919 %
+Total Number of Instances             6231     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,980    0,184    0,855      0,980    0,913      0,813    0,925     0,895     0
+                 0,816    0,020    0,974      0,816    0,888      0,813    0,925     0,936     1
+Weighted Avg.    0,902    0,106    0,912      0,902    0,901      0,813    0,925     0,915     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 3209   64 |    a = 0
+  544 2414 |    b = 1
+

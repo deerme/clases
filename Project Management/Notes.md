@@ -29,3 +29,4 @@ Dirigir un proyecto es **identificar requisitos** y enfrentar las necesidades, i
 Los proyectos son **el medio para cumplir con el plan estratégico de una organización.** Todos los proyectos deben apuntar a la misión, visión y objetivos de la empresa.
 
 El director de proyectos es la persona asignada para alcanzar los objetivos del proyecto.
+
