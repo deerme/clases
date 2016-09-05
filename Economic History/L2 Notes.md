@@ -1,3 +1,5 @@
+## Grupos Económicos y Decisiones Financieras en el Perú
+
 **Oligarquía**: una forma de gobierno en la que el poder supremo está en manos de unas pocas personas, en el caso peruano de los grupos familiares.
 
 **La Guerra del Pacífico**: conflicto armado acontecido entre 1879 y 1883 que enfrentó a Chile contra los aliados Bolivia y Perú. La guerra se desarrolló en el océano Pacífico, en el desierto de Atacama y en las serranía y valles peruanos. La guerra fue un hito dramático en la historia de América del Sur y es una de las principales guerras de finales del siglo XIX. Retardó la coordinación y diversificación de las instituciones de crédito debido a que se tuvo que mutilar financieramente al Estado para poder pagar la deuda pública externa; quiebran importantes casas mercantiles y existe una fuerte fuga de capital; precios deprimidos y período económico de estancamiento; depresión.
