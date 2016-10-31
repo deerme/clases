@@ -1,0 +1,6 @@
+k = 2, p(más parados que sentados) = 1 - Cp9 = 0.1815716014
+k = 3, p(más parados que sentados) = 1 - Cp11 =
+k = k, p(más parados que sentados) = 1 - Cp(2k+5) <= 0.001
+
+1 - Cp33 <= 0.001
+2k+5 = 33 .:. 2k = 28 .:. k = 14
